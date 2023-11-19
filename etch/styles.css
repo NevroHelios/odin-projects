@@ -1,0 +1,23 @@
+#box {
+  max-width: 960px; /* Adjust max-width for the outer box */
+  margin: 20px auto; /* Center the outer box and add margin for better appearance */
+  padding: 20px; /* Add padding for spacing inside the outer box */
+  border: 1px solid #ccc; /* Add border for visual separation */
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 0;
+  width: 100%;
+}
+
+.square {
+  width: calc(100% / 10);
+  height: calc(100% / 10);
+  border: 1px solid black;
+}
+
+button {
+  margin-top: 20px;
+}
